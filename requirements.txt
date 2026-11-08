@@ -1,0 +1,27 @@
+# 웹앱
+streamlit>=1.40
+
+# LangChain
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+langchain-openai>=0.2          # LLM_PROVIDER=openai 또는 EMBEDDING_PROVIDER=openai 일 때
+langchain-anthropic>=0.3       # LLM_PROVIDER=anthropic 일 때
+
+# 로컬 벡터 검색 (외부 Vector DB 서버 불필요)
+faiss-cpu
+
+# 크롤링
+requests
+beautifulsoup4
+lxml
+
+# 설정
+python-dotenv
+
+# --- 선택: 로컬 임베딩(EMBEDDING_PROVIDER=huggingface) 을 쓸 때만 주석 해제 ---
+# langchain-huggingface
+# sentence-transformers
+
+# --- 선택: 테스트 ---
+# pytest
