@@ -1,6 +1,6 @@
-# Kubernetes · Red Hat 공식문서 RAG 챗봇
+# Kubernetes 공식문서 RAG 챗봇
 
-Kubernetes 공식문서(`kubernetes.io/docs`)와 Red Hat 공식문서(`docs.redhat.com/en`)**만**을 근거로 답변하는 챗봇입니다.
+Kubernetes 공식문서(`kubernetes.io/docs`)**만**을 근거로 답변하는 챗봇입니다.
 LangChain으로 RAG 파이프라인을 만들고, Streamlit으로 ChatGPT와 비슷한 화면을 로컬에서 실행합니다.
 외부 Vector DB 서버는 필요 없습니다. (로컬 FAISS 인덱스 사용)
 
